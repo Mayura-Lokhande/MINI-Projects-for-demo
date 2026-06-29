@@ -6,6 +6,8 @@ $.fn.parallax = function (resistance, mouse) {
   });
 };
 
+
+
 $(document).mousemove(function (e) {
   $(".background").parallax(-30, e);
   $(".cloud1").parallax(10, e);
